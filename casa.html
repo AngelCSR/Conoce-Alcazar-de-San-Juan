@@ -47,29 +47,27 @@
 
     <div class="contenedor" id="explora">
         <section>
-            <h2>Vídeo de presentación</h2>
-            <video controls autoplay muted loop poster="img/casa_hidalgo-1.jpg" width="640">
-                <source
-                    src="media/videos/Mi_voz_en_este_gran_reportaje_de_la_casa_museo_del_Hidalgo_en_Alc_zar_de_San_Juan_480P.mp4"
-                    type="video/mp4">
-                <track src="media/videos/subtHidalgo.vtt" kind="subtitles" srclang="es" label="Español" default>
-                Tu navegador no soporta el elemento <code>video</code>.
-            </video>
-        </section>
-
-        <section>
-            <h2>Audioguía</h2>
-            <p class="texto-audioguia">
-                Te dejo esta audioguía para que descubras, paso a paso, la historia y los secretos que hacen especial
-                este lugar.
-            </p>
-            <audio controls>
-                <source
-                    src="media/audio/Mi_voz_en_este_gran_reportaje_de_la_casa_museo_del_Hidalgo_en_Alc_zar_de_San_Juan_128KBPS.mp4"
-                    type="audio/mpeg">
-                Tu navegador no soporta el elemento <code>audio</code>.
-            </audio>
-        </section>
+        <div class="row align-items-center">
+            <div class="col-md-7 mb-3 mb-md-0">
+                <h2>Vídeo de presentación</h2>
+                <video controls autoplay muted loop poster="img/casa_hidalgo-1.jpg" class="w-100">
+                    <source src="media/videos/Mi_voz_en_este_gran_reportaje_de_la_casa_museo_del_Hidalgo_en_Alc_zar_de_San_Juan_480P.mp4" type="video/mp4">
+                    <track src="media/videos/subtHidalgo.vtt" kind="subtitles" srclang="es" label="Español" default>
+                    Tu navegador no soporta el elemento <code>video</code>.
+                </video>
+            </div>
+            <div class="col-md-5">
+                <h2>Audioguía</h2>
+                <p class="texto-audioguia">
+                    Te dejo esta audioguía para que descubras, paso a paso, la historia y los secretos que hacen especial este lugar.
+                </p>
+                <audio controls class="w-100">
+                    <source src="media/audio/Mi_voz_en_este_gran_reportaje_de_la_casa_museo_del_Hidalgo_en_Alc_zar_de_San_Juan_128KBPS.mp4" type="audio/mpeg">
+                    Tu navegador no soporta el elemento <code>audio</code>.
+                </audio>
+            </div>
+        </div>
+    </section>
 
         <section>
             <h2>Descripción</h2>
@@ -86,24 +84,27 @@
         <div class="seccion">
             <h2>Imágenes destacadas</h2>
             <div class="tarjetas">
-                <div class="tarjeta">
+                <div class="tarjeta tarjeta-imagen">
                     <img src="media/imagenes/casa-fachada-san-juan.jpg" alt="Fachada principal de la Casa del Hidalgo">
                     <h3>Fachada histórica</h3>
                     <p>La imponente fachada principal de la Casa del Hidalgo refleja la arquitectura del siglo XVI.</p>
                 </div>
-                <div class="tarjeta">
+
+                <div class="tarjeta tarjeta-imagen">
                     <img src="media/imagenes/interior.jpeg"
                         alt="Interior de la Casa del Hidalgo mostrando mobiliario antiguo">
                     <h3>Interior tradicional</h3>
                     <p>El interior con mobiliario antiguo y decoración típica de los hidalgos de Alcázar de San Juan.
                     </p>
                 </div>
-                <div class="tarjeta">
+
+                <div class="tarjeta tarjeta-imagen">
                     <img src="media/imagenes/patio.jpeg" alt="Patio y jardín de la Casa del Hidalgo">
                     <h3>Patio y jardín</h3>
                     <p>Espacios donde se realizaban actividades cotidianas y recreativas, mostrando la vida de antaño.
                     </p>
                 </div>
+
             </div>
             <a href="contacto.html" class="btn btn-custom">Quiero saber más</a>
         </div>

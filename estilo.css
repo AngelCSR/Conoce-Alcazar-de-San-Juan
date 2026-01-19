@@ -45,6 +45,27 @@
        height: 200px;
        object-fit: cover;
    }
+   .enlace-tarjeta {
+    display: block;            /* Toda la tarjeta es clicable */
+    text-decoration: none;     /* Quita el subrayado */
+    color: inherit;           /* Mantiene el color original del texto */
+}
+
+.enlace-tarjeta:hover {
+    transform: scale(1.02);    
+    transition: 0.2s ease-in-out;
+}
+/* Efecto hover SOLO para las tarjetas con imagen */
+.tarjeta-imagen {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tarjeta-imagen:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+
 
 
 

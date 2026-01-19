@@ -47,29 +47,40 @@
 
     <div class="contenedor" id="explora">
         <section>
-            <h2>Vídeo de presentación</h2>
-            <video controls autoplay muted loop poster="img/parquealces-1.jpg" width="640">
-                <source src="media/videos/Parque_Alces_conoce_de_cerca_el_pulm_n_verde_de_la_ciudad_720P.mp4"
-                    type="video/mp4">
-                <track
-                    src="media/videos/[Spanish (auto-generated)] Parque Alces_ conoce de cerca el pulmón verde de la ciudad [DownSub.com].vtt"
-                    kind="subtitles" srclang="es" label="Español" default>
-                Tu navegador no soporta el elemento <code>video</code>.
-            </video>
+
+            <div class="row align-items-center">
+                <!-- Video a la izquierda -->
+
+
+                <div class="col-md-7 mb-3 mb-md-0">
+                    <h2>Vídeo de presentación</h2>
+                    <video controls autoplay muted loop poster="img/parquealces-1.jpg" class="w-100">
+                        <source src="media/videos/Parque_Alces_conoce_de_cerca_el_pulm_n_verde_de_la_ciudad_720P.mp4"
+                            type="video/mp4">
+                        <track
+                            src="media/videos/[Spanish (auto-generated)] Parque Alces_ conoce de cerca el pulmón verde de la ciudad [DownSub.com].vtt"
+                            kind="subtitles" srclang="es" label="Español" default>
+                        Tu navegador no soporta el elemento <code>video</code>.
+                    </video>
+                </div>
+
+                <!-- Audioguía a la derecha -->
+                <div class="col-md-5">
+                    <h2>Audioguía</h2>
+                    <p class="texto-audioguia">
+                        Te dejo esta audioguía para que descubras, paso a paso, la historia y los secretos que hacen
+                        especial
+                        este lugar.
+                    </p>
+                    <audio controls class="w-100">
+                        <source src="media/audio/Parque_Alces_conoce_de_cerca_el_pulm_n_verde_de_la_ciudad_128KBPS.mp4"
+                            type="audio/mpeg">
+                        Tu navegador no soporta el elemento <code>audio</code>.
+                    </audio>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>Audioguía</h2>
-            <p class="texto-audioguia">
-                Te dejo esta audioguía para que descubras, paso a paso, la historia y los secretos que hacen especial
-                este lugar.
-            </p>
-            <audio controls>
-                <source src="media/audio/Parque_Alces_conoce_de_cerca_el_pulm_n_verde_de_la_ciudad_128KBPS.mp4"
-                    type="audio/mpeg">
-                Tu navegador no soporta el elemento <code>audio</code>.
-            </audio>
-        </section>
 
         <section>
             <h2>Descripción</h2>
@@ -87,18 +98,20 @@
         <div class="seccion">
             <h2>Imágenes destacadas</h2>
             <div class="tarjetas">
-                <div class="tarjeta">
+                <div class="tarjeta tarjeta-imagen">
                     <img src="media/imagenes/parque1.jpeg"
                         alt="Vista general del Parque Alces con zonas verdes y caminos">
                     <h3>Vistas panorámicas</h3>
                     <p>Amplias zonas verdes y caminos perfectos para pasear y disfrutar de la naturaleza.</p>
                 </div>
-                <div class="tarjeta">
+
+                <div class="tarjeta tarjeta-imagen">
                     <img src="media/imagenes/parque2.jpeg" alt="Área de juegos infantil y bancos en el Parque Alces">
                     <h3>Zona recreativa</h3>
                     <p>Área de juegos y descanso ideal para familias y visitantes, con bancos y espacios abiertos.</p>
                 </div>
-                <div class="tarjeta">
+
+                <div class="tarjeta tarjeta-imagen">
                     <img src="media/imagenes/camino.jpg" alt="Árboles y senderos en el Parque Alces">
                     <h3>Senderos y naturaleza</h3>
                     <p>Disfruta de los senderos rodeados de árboles centenarios y espacios para actividades al aire
@@ -107,6 +120,7 @@
             </div>
             <a href="contacto.html" class="btn btn-custom">Quiero saber más</a>
         </div>
+
     </div>
 
     </div>
