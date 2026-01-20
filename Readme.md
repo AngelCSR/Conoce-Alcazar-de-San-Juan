@@ -56,7 +56,7 @@ Turismo-Alcazar/
 
 ## Cómo Ejecutar el Proyecto
 
-1. Clonar o descargar el repositorio en tu máquina local.  
+1. Clonar o descargar el repositorio en tu máquina local. (https://github.com/AngelCSR/Conoce-Alcazar-de-San-Juan.git) 
 2. Abrir los archivos `.html` en cualquier navegador moderno (Chrome, Firefox, Edge, Safari).  
 3. Navegar entre las páginas usando la barra de navegación para explorar los contenidos.  
 
